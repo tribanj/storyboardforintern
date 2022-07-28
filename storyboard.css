@@ -9,12 +9,11 @@ html {
 
 }
 
-/* body {
-    border: 47px solid blue;
+body {
+    border: 27px solid blue;
     border-radius: 13px;
-    margin: 95px;
-    padding: 81px
-} */
+   
+}
 h3{
     color: white;
     padding-top: 30px;
