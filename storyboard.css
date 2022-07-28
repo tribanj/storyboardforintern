@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+/* body {
+    border: 47px solid blue;
+    border-radius: 13px;
+    margin: 95px;
+    padding: 81px
+} */
+h3{
+    color: white;
+    padding-top: 30px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    /* z-index: 1; */
+    /* top: 96px;
+    left: 95px; */
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+
+    .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+    color: #f1f1f1;
+    }
+
+    .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+
+    .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    }
+
+    .openbtn:hover {
+    background-color: #444;
+    }
+
+    #main {
+    transition: margin-left .5s;
+    /* padding: 16px; */
+    width: 11rem
+    }
+
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a
+    smaller font size) */
+    @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    }
+
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 0.25em;
+    left: 6em
+}
+h2 img{
+    height: 23px;
+    width: 23px;
+    background-color: aliceblue;
+    margin-left: 3em;
+    margin-top: 1px;
+}
+h1{
+    background-color: rgb(22, 22, 202);
+    color: aliceblue;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 365px;
+    background-image: url(31191.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#home::before {
+    content: " ";
+    position: absolute;
+    background-image: url('/177384.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0%;
+    opacity: 0.89;
+}
+.center {
+    text-align: center;
+}
+#home p {
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    text-size-adjust: 1.25rem;
+    padding-bottom: 23px;
+}
+
+#home p1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn button{
+    padding: 2px;
+    border: .5px solid rgb(9, 158, 138);
+    background-color: brown;
+    color: aliceblue;
+    margin: -5px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: aqua;
+    color: blueviolet;
+    /* size: 150px; */
+}
+
+
+#beautiful {
+    margin: 34px;
+    display: fles;
+    /* background: green; */
+
+}
+
+.box {
+    font-family: 'Fredoka', sans-serif;
+    border: 2px solid brown;
+    display: inline-block;
+    width: 458px;
+    border-radius: 23px;
+    /* background-color: rgb(227, 250, 250); */
+    margin: 1px;
+    padding: 4px;
+}
+
+.box img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding: 2px;
+
+}
+video{
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding: 2px;
+    width: 458px;
+
+}
+textarea{
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding: 2px;
+
+}
